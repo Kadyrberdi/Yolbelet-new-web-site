@@ -5,22 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yolbelet</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="header">
     <div class="container header__container">
-      <img src="img/icon/logo.svg" alt="logo" class="logo">
+      <div class="logo-navbar">
+        <img src="img/icon/logo.svg" alt="logo" class="logo">
       <nav class="navbar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Hyzmatlarymyz</a></li>
-          <li><a href="#">Kurslarymyz</a></li>
-          <li><a href="#">Biz barada</a></li>
+        <ul class="navbar__links">
+          <li><a class="navbar__link" href="#">Home</a></li>
+          <li><a class="navbar__link" href="#">Hyzmatlarymyz</a></li>
+          <li><a class="navbar__link" href="#">Kurslarymyz</a></li>
+          <li><a class="navbar__link" href="#">Biz barada</a></li>
         </ul>
       </nav>
       <!-- navbar -->
-      <img src="img/icon/Search.svg" alt="Search" class="search">
+      </div>
+      <!-- /.logo-navbar -->
+      <div class="seacrh-contact">
+        <img src="img/icon/Search.svg" alt="Search" class="search">
       <button class="contact-btn">Biz bilen habarlaş</button>
+      </div>
     </div>
   </header>
   <!-- /.header -->

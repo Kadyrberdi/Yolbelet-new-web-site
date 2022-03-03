@@ -1,0 +1,53 @@
+.header__container {
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+
+.logo-navbar {
+  display: flex;
+}
+
+.navbar__links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 538px;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+}
+.navbar__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.seacrh-contact {
+  display: flex;
+}
+
+.search {
+  margin-right: 32px;
+}
+
+.contact-btn {
+  background: #F4B840;
+  border-radius: 8px;
+  padding: 12px 32px;
+  color: #1A171E;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.logo {
+  height: 51px;
+  margin-right: 75px;
+}

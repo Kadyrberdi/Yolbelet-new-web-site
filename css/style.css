@@ -5,5 +5,107 @@
 
 body {
   background-color: #1A171E;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("../font/SofiaProRegular.woff") format("woff");
+  font-family: 'Sofia Pro';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("../font/SofiaProRegular.woff2") format("woff2");
+  font-family: 'Sofia Pro';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("../font/SofiaProBold.woff") format("woff");
+  font-family: 'Sofia Pro';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url("../font/SofiaProBold.woff2") format("woff2");
+  font-family: 'Sofia Pro';
+  font-weight: 700;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 27px;
+}
+
+.logo-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  width: 538px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.seacrh-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search {
+  margin-right: 32px;
+}
+
+.contact-btn {
+  background: #F4B840;
+  border-radius: 8px;
+  padding: 12px 32px;
+  color: #1A171E;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.logo {
+  height: 51px;
+  margin-right: 75px;
 }
 /*# sourceMappingURL=style.css.map */
