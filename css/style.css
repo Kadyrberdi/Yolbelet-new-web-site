@@ -11,6 +11,8 @@ body {
   font-family: sofia-pro, sans-serif;
   font-style: normal;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -50,6 +52,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 27px;
+  margin-bottom: 267px;
 }
 
 .logo-navbar {
@@ -107,5 +110,97 @@ body {
 .logo {
   height: 51px;
   margin-right: 75px;
+}
+
+.land__container {
+  max-width: 1232px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.land__content {
+  max-width: 563px;
+  margin-right: 103px;
+}
+
+.land__title {
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 75px;
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.land__text {
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 29px;
+  margin-top: 0;
+}
+
+.land__btn {
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  padding: 17px 36px;
+  border-radius: 31px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.land-btn_blue {
+  background: #4194F4;
+  margin-right: 38px;
+}
+
+.land-btn_black {
+  background: #2A2A35;
+}
+
+.land__team-members {
+  position: relative;
+}
+
+.team-member {
+  position: absolute;
+}
+
+.team-member__1 {
+  top: -238px;
+}
+
+.team-member__2 {
+  top: -478px;
+  right: -425px;
+}
+
+.team-member__3 {
+  right: -650px;
+  top: -168px;
+}
+
+.team-member__4 {
+  top: 318px;
+}
+
+.team-member__5 {
+  right: -425px;
+  top: 77px;
+}
+
+.team-member__6 {
+  right: -650px;
+  top: 388px;
 }
 /*# sourceMappingURL=style.css.map */
