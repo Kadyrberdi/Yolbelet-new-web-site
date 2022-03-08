@@ -259,21 +259,28 @@ body {
   margin-bottom: 16px;
 }
 
-.service-box__logo:hover {
-  color: white;
-  background-color: #EAB293;
-}
-
 .service-box__logo-1 {
   width: 64px;
   height: 64px;
-  background-image: url(.././img/icon/service-1-without-bg.svg);
+  background-image: url(.././img/icon/service-1.svg);
 }
 
-.service-box__logo-1:hover {
-  /* background-image: url(.././img/icon/service-1-hover.svg) */
-  background-color: #EAB293;
-  border-radius: 8px;
+.service-box__logo-2 {
+  width: 64px;
+  height: 64px;
+  background-image: url(.././img/icon/service-2.svg);
+}
+
+.service-box__logo-3 {
+  width: 64px;
+  height: 64px;
+  background-image: url(.././img/icon/service-2.svg);
+}
+
+.service-box__logo-4 {
+  width: 64px;
+  height: 64px;
+  background-image: url(.././img/icon/service-4.svg);
 }
 
 .service-box__title {
@@ -307,9 +314,20 @@ body {
   background-color: #E26A27;
 }
 
-.service-box__item:hover span {
-  color: white;
-  background-color: #EAB293;
+.service-box__item-1:hover div {
+  background: url(.././img/icon/service-1-hover.svg) center center no-repeat;
+}
+
+.service-box__item-2:hover div {
+  background: url(.././img/icon/service-2-hover.svg) center center no-repeat;
+}
+
+.service-box__item-3:hover div {
+  background: url(.././img/icon/service-2-hover.svg) center center no-repeat;
+}
+
+.service-box__item-4:hover div {
+  background: url(.././img/icon/service-4-hover.svg) center center no-repeat;
 }
 
 .service-box__item-1, .service-box__item-3 {
