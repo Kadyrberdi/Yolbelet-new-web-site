@@ -39,6 +39,22 @@ body {
   font-weight: 700;
 }
 
+.header {
+  overflow: overlay;
+  background-image: url(.././img/team-members.png);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: -141px;
+}
+
+.land {
+  overflow: overlay;
+  background-image: url(.././img/team-members.png);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: -500px;
+}
+
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -169,42 +185,6 @@ body {
   background: #2A2A35;
 }
 
-.land__team-members {
-  position: relative;
-}
-
-.team-member {
-  position: absolute;
-}
-
-.team-member__1 {
-  top: -238px;
-}
-
-.team-member__2 {
-  top: -478px;
-  right: -425px;
-}
-
-.team-member__3 {
-  right: -650px;
-  top: -168px;
-}
-
-.team-member__4 {
-  top: 318px;
-}
-
-.team-member__5 {
-  right: -425px;
-  top: 77px;
-}
-
-.team-member__6 {
-  right: -650px;
-  top: 388px;
-}
-
 .clients__container {
   max-width: 1232px;
   margin: auto;
@@ -276,6 +256,23 @@ body {
   margin-bottom: 16px;
 }
 
+.service-box__logo:hover {
+  color: white;
+  background-color: #EAB293;
+}
+
+.service-box__logo-1 {
+  width: 64px;
+  height: 64px;
+  background-image: url(.././img/icon/service-1-without-bg.svg);
+}
+
+.service-box__logo-1:hover {
+  /* background-image: url(.././img/icon/service-1-hover.svg) */
+  background-color: #EAB293;
+  border-radius: 8px;
+}
+
 .service-box__title {
   font-family: Sofia Pro;
   font-style: normal;
@@ -305,6 +302,11 @@ body {
 
 .service-box__item:hover {
   background-color: #E26A27;
+}
+
+.service-box__item:hover span {
+  color: white;
+  background-color: #EAB293;
 }
 
 .service-box__item-1, .service-box__item-3 {
