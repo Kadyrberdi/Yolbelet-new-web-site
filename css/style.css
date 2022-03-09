@@ -55,6 +55,32 @@ body {
   background-position-y: -500px;
 }
 
+h1 {
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+h2 {
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+p {
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+}
+
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -336,5 +362,11 @@ body {
 
 .service-box__item-1, .service-box__item-2 {
   margin-bottom: 16px;
+}
+
+.course__container {
+  max-width: 1232px;
+  margin: auto;
+  margin-bottom: 160px;
 }
 /*# sourceMappingURL=style.css.map */
