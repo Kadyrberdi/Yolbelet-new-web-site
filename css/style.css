@@ -369,4 +369,45 @@ p {
   margin: auto;
   margin-bottom: 160px;
 }
+
+.course__action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.course__title {
+  margin: 0;
+  margin-right: 30px;
+}
+
+.course-box__item {
+  border-radius: 8px;
+}
+
+.course-box__orange {
+  background-color: #E26A27;
+}
+
+.course-box__green {
+  background-color: #5CC87C;
+}
+
+.course-box__turquoise {
+  background-color: #5DD4D8;
+}
+
+.course-box__purple {
+  background-color: #6B22E2;
+}
+
+.course-box__yellow {
+  background-color: #F4B840;
+}
 /*# sourceMappingURL=style.css.map */
