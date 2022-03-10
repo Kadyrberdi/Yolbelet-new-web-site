@@ -508,4 +508,54 @@ p {
   padding: 0;
   margin: 0;
 }
+
+.hire-us__container {
+  max-width: 1232px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 178px;
+}
+
+.hire-us__texts {
+  max-width: 608px;
+}
+
+.hire-us__title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.hire-us__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.hire-us__btn {
+  padding: 16px 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  background-color: #E26A27;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hire-us__img {
+  width: 504px;
+  height: 389px;
+}
 /*# sourceMappingURL=style.css.map */
