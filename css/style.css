@@ -558,4 +558,99 @@ p {
   width: 504px;
   height: 389px;
 }
+
+.team {
+  background-color: #6B22E2;
+}
+
+.team__container {
+  max-width: 1232px;
+  margin: auto;
+  padding-top: 102px;
+  padding-bottom: 114px;
+}
+
+.team__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 68px;
+}
+
+.team__title {
+  margin: 0;
+}
+
+.team__arrow {
+  padding: 16px;
+}
+
+.team__arrow-left {
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+}
+
+.team__arrow-right {
+  border: 2px solid #FFFFFF;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.team__boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.team-box {
+  background-color: #FBFBFB;
+  width: 296px;
+  height: 408px;
+  color: #6B22E2;
+  -webkit-box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.team__photo {
+  margin-bottom: 16px;
+}
+
+.team__name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.team__role-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.team__role {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0;
+  margin-right: 66px;
+}
 /*# sourceMappingURL=style.css.map */
