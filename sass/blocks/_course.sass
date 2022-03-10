@@ -13,8 +13,20 @@
     margin: 0
     margin-right: 30px
   &-box
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
     &__item
       border-radius: 8px
+      &_small
+        width: 296px
+        height: 408px
+        padding: 8px
+        margin-bottom: 16px
+      &_big
+        width: 608px
+        height: 408px
+        padding: 8px 16px
     &__orange
       background-color: $orange
     &__green
@@ -25,4 +37,54 @@
       background-color: $purple
     &__yellow
       background-color: $yellow
+  &__image
+    margin-bottom: 16px
+  &__text
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__name
+    font-weight: 700
+    font-size: 24px
+    line-height: 32px
+    margin: 0
+    padding: 0
+    margin-bottom: 6px
+    &__big
+      font-weight: 700
+      font-size: 36px
+      line-height: 32px
+  &__price
+    font-weight: 400
+    font-size: 16px
+    line-height: 27px
+    padding: 0
+    margin: 0
+    &__big
+      font-weight: 400
+      font-size: 22px
+      line-height: 27px
+      padding: 0
+      margin: 0
+      margin-bottom: 3px
+  &__tutor
+    padding: 0
+    margin: 0
+    font-style: normal
+    font-weight: 400
+    font-size: 22px
+    line-height: 27px
+  &__date
+    font-weight: 700
+    font-size: 48px
+    line-height: 32px
+    margin: 0
+    padding: 0
+    margin-bottom: 4px
+  &__month
+    font-weight: 700
+    font-size: 24px
+    line-height: 32px
+    padding: 0
+    margin: 0
 
