@@ -717,4 +717,51 @@ p {
 .review__arrows {
   text-align: right;
 }
+
+.form__container {
+  max-width: 1232px;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 106px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__texts {
+  max-width: 608px;
+}
+
+.form__name-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__input {
+  border: 1px solid #D2D2F9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  color: #AFAFAF;
+}
+
+.form__input__small {
+  width: 272px;
+  padding: 15px 10px;
+}
+
+.form__name {
+  margin-right: 17px;
+}
 /*# sourceMappingURL=style.css.map */
