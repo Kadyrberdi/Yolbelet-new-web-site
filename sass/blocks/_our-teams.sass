@@ -26,13 +26,15 @@
     align-items: center
     justify-content: space-between
   &-box
-    background-color: #FBFBFB
     width: 296px
     height: 408px
-    color: $purple
-    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15)
     border-radius: 8px
     padding: 8px
+    &:hover
+      color: $purple
+      box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15)
+      background-color: #FBFBFB
+      
   &__photo
     margin-bottom: 16px
   &__name
@@ -41,6 +43,8 @@
     line-height: 32px
     margin: 0
     margin-bottom: 8px
+    font-feature-settings: 'pnum' on, 'lnum' on
+    color: #E6E6E6
   &__role-contacts
     display: flex
     align-items: center
@@ -50,3 +54,6 @@
     line-height: 27px
     margin: 0
     margin-right: 66px
+    color: #E9E9E9
+.team-box:hover p,.team-box:hover h3
+  color: $purple

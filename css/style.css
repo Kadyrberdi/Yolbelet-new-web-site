@@ -399,6 +399,8 @@ p {
 }
 
 .course-box__item {
+  -webkit-box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
 }
 
@@ -615,14 +617,17 @@ p {
 }
 
 .team-box {
-  background-color: #FBFBFB;
   width: 296px;
   height: 408px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.team-box:hover {
   color: #6B22E2;
   -webkit-box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
-  padding: 8px;
+  background-color: #FBFBFB;
 }
 
 .team__photo {
@@ -635,6 +640,9 @@ p {
   line-height: 32px;
   margin: 0;
   margin-bottom: 8px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #E6E6E6;
 }
 
 .team__role-contacts {
@@ -652,5 +660,10 @@ p {
   line-height: 27px;
   margin: 0;
   margin-right: 66px;
+  color: #E9E9E9;
+}
+
+.team-box:hover p, .team-box:hover h3 {
+  color: #6B22E2;
 }
 /*# sourceMappingURL=style.css.map */
