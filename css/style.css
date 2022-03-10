@@ -666,4 +666,55 @@ p {
 .team-box:hover p, .team-box:hover h3 {
   color: #6B22E2;
 }
+
+.review {
+  background-color: #6B22E2;
+}
+
+.review__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.review__img {
+  margin-right: 104px;
+}
+
+.review__box {
+  max-width: 504px;
+}
+
+.review__text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.review__author {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 11px;
+}
+
+.review__job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 46px;
+}
+
+.review__arrows {
+  text-align: right;
+}
 /*# sourceMappingURL=style.css.map */
