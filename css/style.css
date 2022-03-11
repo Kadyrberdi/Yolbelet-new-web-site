@@ -726,9 +726,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -738,6 +738,27 @@ p {
   max-width: 608px;
 }
 
+.form__box {
+  max-width: 561px;
+}
+
+.form__title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.form__subtitle {
+  margin: 0;
+}
+
+.form__text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 11px;
+}
+
 .form__name-email {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -745,9 +766,29 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.form__message {
+  font-family: 'Sofia Pro';
+  padding: 12px 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  max-width: 561px;
+  outline: none;
+  border: 1px solid #D2D2F9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 40px;
 }
 
 .form__input {
+  font-family: 'Sofia Pro';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
   border: 1px solid #D2D2F9;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -756,12 +797,69 @@ p {
   color: #AFAFAF;
 }
 
+.form__input:enabled {
+  color: black;
+}
+
 .form__input__small {
   width: 272px;
   padding: 15px 10px;
 }
 
+.form__input__long {
+  position: relative;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-progress-appearance: none;
+  padding: 15px 18px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.form__role {
+  position: relative;
+}
+
+.form__role select:invalid:not(:focus) {
+  color: #AFAFAF;
+}
+
+.form__role select:invalid:focus {
+  color: transparent;
+}
+
+.form__role select:focus option {
+  color: initial;
+}
+
+.form__role::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 20px;
+  height: 10px;
+  background: url(.././img/icon/select.svg) no-repeat center/cover;
+  right: 20px;
+  bottom: 50%;
+}
+
 .form__name {
   margin-right: 17px;
+}
+
+.form__submit {
+  padding: 16px 40px;
+  cursor: pointer;
+  background: #F4B840;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A171E;
+  outline: none;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
