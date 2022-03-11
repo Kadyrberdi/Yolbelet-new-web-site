@@ -862,4 +862,116 @@ p {
   outline: none;
   border: none;
 }
+
+.footer {
+  background-color: #6B22E2;
+}
+
+.footer__container {
+  max-width: 1232px;
+  margin: auto;
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+
+.footer__logo__img {
+  height: 27px;
+  margin-right: 10px;
+}
+
+.footer__logo__name {
+  margin: 0;
+}
+
+.footer__texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.footer__text {
+  max-width: 512px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0;
+}
+
+.footer__links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.footer__list {
+  margin-right: 40px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer__email {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer__line {
+  border: 1px solid #FFFFFF;
+  margin-bottom: 18px;
+}
+
+.footer__end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__social-medias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 152px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__copyright {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
 /*# sourceMappingURL=style.css.map */
