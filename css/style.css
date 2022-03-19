@@ -189,7 +189,7 @@ body {
           flex-direction: row;
 }
 
-.free-consulting-container .free-consulting__title .free-consulting__message .free-consulting__input {
+.free-consulting-container .free-consulting__title .free-consulting__input {
   width: 504px;
   height: 56px;
 }
