@@ -1,0 +1,96 @@
+.form
+  &__container
+    max-width: 1232px
+    margin: auto
+    padding-top: 90px
+    padding-bottom: 106px
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+  &__texts
+    max-width: 608px
+  &__box
+    max-width: 561px
+  &__title
+    margin: 0
+    margin-bottom: 20px
+  &__subtitle
+    margin: 0
+  &__text
+    font-weight: 700
+    font-size: 16px
+    line-height: 24px
+    margin: 0
+    margin-bottom: 11px
+  &__name-email
+    display: flex
+    justify-content: space-between
+    margin-bottom: 18px
+  &__message
+    font-family: 'Sofia Pro'
+    padding: 12px 18px
+    font-weight: 400
+    font-size: 16px
+    line-height: 27px
+    max-width: 561px
+    outline: none
+    border: 1px solid #D2D2F9
+    box-sizing: border-box
+    border-radius: 8px
+    margin-bottom: 40px
+  &__input
+    font-family: 'Sofia Pro'
+    font-weight: 400
+    font-size: 16px
+    line-height: 27px
+    border: 1px solid #D2D2F9
+    box-sizing: border-box
+    border-radius: 8px
+    outline: none
+    color: #AFAFAF
+    &:enabled
+      color: black
+    &__small
+      width: 272px
+      padding: 15px 10px
+    &__long
+      position: relative
+      -moz-appearance: none
+      -webkit-appearance: none
+      -ms-progress-appearance: none
+      padding: 15px 18px
+      width: 100%
+      font-weight: 400
+      font-size: 16px
+      cursor: pointer
+      margin-bottom: 16px
+  &__role
+    position: relative
+    select:invalid:not(:focus)
+      color: #AFAFAF
+    select:invalid:focus
+      color: transparent
+    select:focus option
+      color: initial
+    &::after
+      position: absolute
+      content: ''
+      display: block
+      width: 20px
+      height: 10px
+      background: url(.././img/icon/select.svg) no-repeat center / cover
+      right: 20px
+      bottom: 50%
+  &__name
+    margin-right: 17px
+  &__submit
+    padding: 16px 40px
+    cursor: pointer
+    background: #F4B840
+    border-radius: 8px
+    font-weight: 700
+    font-size: 16px
+    line-height: 24px
+    color: #1A171E
+    outline: none
+    border: none
