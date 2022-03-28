@@ -975,7 +975,7 @@ p {
   line-height: 27px;
 }
 
-.main-page-container {
+.con__land__container {
   width: 1347px;
   height: 480px;
   display: -webkit-box;
@@ -985,9 +985,11 @@ p {
       -ms-flex-pack: end;
           justify-content: end;
   margin-bottom: 126px;
+  margin: auto;
 }
 
-.main-page__text {
+.con__land__text {
+  max-width: 604px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1001,22 +1003,22 @@ p {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+  margin-right: 130px;
 }
 
-.main-page__title {
+.con__land__title {
   font-weight: bold;
   font-size: 64px;
   line-height: 64px;
-  width: 650px;
-  height: 128px;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
-.main-page__subtitle {
+.con__land__subtitle {
   font-weight: normal;
   font-size: 16px;
   line-height: 27px;
-  width: 623px;
-  height: 54px;
+  margin: 0;
 }
 
 .whyyolbelet-container {
