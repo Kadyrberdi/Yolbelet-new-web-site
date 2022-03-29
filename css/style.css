@@ -1278,19 +1278,33 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 104px;
 }
 
-.our-values__container__title {
+.our-values__title {
   margin-bottom: 78px;
 }
 
-.our-values__container__main {
+.our-values__main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 1209px;
+  margin: auto;
 }
 
-.our-values__container__main-box {
-  max-width: 334px;
+.our-values__main-box {
+  text-align: center;
+  max-width: 298px;
+}
+
+.our-values__main-box__title {
+  margin-top: 30px;
+  margin-bottom: 44px;
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 35px;
 }
 /*# sourceMappingURL=style.css.map */
