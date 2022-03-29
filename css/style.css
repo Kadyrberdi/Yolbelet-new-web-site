@@ -107,6 +107,10 @@ p {
   margin-bottom: 70px;
 }
 
+.header__container__about {
+  margin-bottom: 20px;
+}
+
 .logo-navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1249,5 +1253,44 @@ p {
 .blog__box__img {
   margin-bottom: 24px;
   border-radius: 8px;
+}
+
+.meet-us__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 28px;
+}
+
+.our-values__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 1209px;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-values__container__title {
+  margin-bottom: 78px;
+}
+
+.our-values__container__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.our-values__container__main-box {
+  max-width: 334px;
 }
 /*# sourceMappingURL=style.css.map */
