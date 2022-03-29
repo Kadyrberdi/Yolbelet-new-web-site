@@ -1235,9 +1235,19 @@ p {
 .blog__box {
   text-decoration: none;
   color: inherit;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.blog__box:hover {
+  color: #6B22E2;
+  -webkit-box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15);
+  background-color: #FBFBFB;
 }
 
 .blog__box__img {
   margin-bottom: 24px;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=style.css.map */
