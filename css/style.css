@@ -1266,45 +1266,123 @@ p {
 }
 
 .our-values__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-width: 1209px;
+  max-width: 1208px;
   margin: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   margin-bottom: 104px;
 }
 
 .our-values__title {
-  margin-bottom: 78px;
+  text-align: center;
+  margin-bottom: 77px;
 }
 
 .our-values__main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1209px;
-  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .our-values__main-box {
-  text-align: center;
   max-width: 298px;
 }
 
 .our-values__main-box__title {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 44px;
   font-family: 'Sofia Pro';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 35px;
+}
+
+.result {
+  background-color: #6B22E2;
+}
+
+.result__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.result__box {
+  margin-top: 56px;
+  margin-bottom: 56px;
+  width: 296px;
+  padding-left: 20px;
+  height: 258px;
+  border-radius: 8px;
+}
+
+.result__box__img {
+  margin: 20px 0 8px 20px;
+}
+
+.result__box__img_yellow {
+  padding-top: 15px;
+}
+
+.result__box__amount {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 60px;
+}
+
+.result__box_orange {
+  background-color: #E26A27;
+}
+
+.result__box_green {
+  background-color: #5CC87C;
+}
+
+.result__box_yellow {
+  background-color: #F4B840;
+}
+
+.result__box_turquoise {
+  background-color: #5DD4D8;
+}
+
+.result__box-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 64px;
+}
+
+.result__box-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.activity {
+  background-color: #1A171E;
+}
+
+.activity__container {
+  max-width: 1158px;
+  height: 1242px;
+  margin: auto;
+}
+
+.activity__time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.activity__time__year {
+  background-color: #25713C;
+  padding: 16px 66px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,31 +3,68 @@
     display: flex
     align-items: center
     margin-bottom: 28px
-    &__title
-    &__img
     
 .our-values
   &__container
-    display: flex
-    min-width: 1209px
+    max-width: 1208px
     margin: auto
-    align-items: center
-    flex-direction: column
     margin-bottom: 104px
   &__title
-    margin-bottom: 78px
+    text-align: center
+    margin-bottom: 77px
   &__main
     display: flex
-    max-width: 1209px
-    margin: auto
+    justify-content: space-between
     &-box
-      text-align: center
       max-width: 298px
       &__title
-        margin-top: 30px
+        margin-top: 40px
         margin-bottom: 44px
         font-family: 'Sofia Pro'
         font-style: normal
         font-weight: 700
         font-size: 36px
         line-height: 35px
+
+.result
+  background-color: $purple
+  &__container
+    display: flex
+    justify-content: space-evenly
+  &__box
+    margin-top: 56px
+    margin-bottom: 56px
+    width: 296px
+    padding-left: 20px
+    height: 258px
+    border-radius: 8px
+    &__img
+      margin: 20px 0 8px 20px
+      &_yellow
+        padding-top: 15px
+    &__amount
+      font-family: 'DM Sans'
+      font-style: normal
+      font-weight: 700
+      font-size: 64px
+      line-height: 60px
+    &_orange
+      background-color: $orange
+    &_green
+      background-color: $green  
+    &_yellow
+      background-color: $yellow
+      
+    &_turquoise
+      background-color: $turquoise
+    &-title
+      font-weight: 700
+      font-size: 36px
+      line-height: 64px
+    &-subtitle
+      font-weight: 400
+      font-size: 16px
+      line-height: 27px
+
+
+
