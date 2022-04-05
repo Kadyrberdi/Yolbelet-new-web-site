@@ -1515,4 +1515,254 @@ p {
 .orange {
   backgorund-color: #E26A27;
 }
+
+.header-contact__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-contact__container__main {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 27px;
+  margin-bottom: 132px;
+}
+
+.header-contact__container__con {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 27px;
+  margin-bottom: 70px;
+}
+
+.header-contact__container__about {
+  margin-bottom: 20px;
+}
+
+.logo-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  width: 538px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.seacrh-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search {
+  margin-right: 32px;
+}
+
+.contact-btn {
+  background: #F4B840;
+  border-radius: 8px;
+  padding: 12px 32px;
+  color: #1A171E;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.logo {
+  height: 51px;
+  margin-right: 75px;
+}
+
+.form-contact-us__container {
+  max-width: 1232px;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 106px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-contact-us__texts {
+  max-width: 608px;
+}
+
+.form-contact-us__box {
+  max-width: 726px;
+  height: 426px;
+}
+
+.form-contact-us__title {
+  margin: 0;
+  margin-bottom: 32px;
+  width: 712px;
+  height: 128px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 64px;
+}
+
+.form-contact-us__subtitle {
+  margin: 0;
+}
+
+.yolbelet__contact {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 26px;
+}
+
+.yolbelet__contact-link {
+  margin-right: 30px;
+}
+
+.yolbelet__text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 11px;
+}
+
+.yolbelet__name-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.yolbelet__message {
+  font-family: 'Sofia Pro';
+  padding: 12px 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  max-width: 561px;
+  outline: none;
+  border: 1px solid #D2D2F9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.yolbelet__input {
+  font-family: 'Sofia Pro';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  border: 1px solid #D2D2F9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  color: #AFAFAF;
+}
+
+.yolbelet__input:enabled {
+  color: black;
+}
+
+.yolbelet__input__small {
+  width: 272px;
+  padding: 15px 10px;
+}
+
+.yolbelet__input__long {
+  position: relative;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-progress-appearance: none;
+  padding: 15px 18px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.yolbelet__role {
+  position: relative;
+}
+
+.yolbelet__role select:invalid:not(:focus) {
+  color: #AFAFAF;
+}
+
+.yolbelet__role select:invalid:focus {
+  color: transparent;
+}
+
+.yolbelet__role select:focus option {
+  color: initial;
+}
+
+.yolbelet__role::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 20px;
+  height: 10px;
+  background: url(.././img/icon/select.svg) no-repeat center/cover;
+  right: 20px;
+  bottom: 50%;
+}
+
+.yolbelet__name {
+  margin-right: 17px;
+}
+
+.yolbelet__submit {
+  padding: 16px 40px;
+  cursor: pointer;
+  background: #F4B840;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A171E;
+  outline: none;
+  border: none;
+}
 /*# sourceMappingURL=style.css.map */
