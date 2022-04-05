@@ -1398,7 +1398,9 @@ p {
   right: -23px;
   width: 248px;
   background-color: #25713C;
-  padding: 16px 54px 16px 66px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 16.5px 54px 16.5px 66px;
   -webkit-clip-path: polygon(91% 36%, 96% 51%, 91% 65%, 91% 100%, 0 100%, 0 0, 91% 0);
           clip-path: polygon(91% 36%, 96% 51%, 91% 65%, 91% 100%, 0 100%, 0 0, 91% 0);
 }
@@ -1510,7 +1512,7 @@ p {
   background-color: #5CC87C;
 }
 
-.orange-box {
-  backgorund-color: blue;
+.orange {
+  backgorund-color: #E26A27;
 }
 /*# sourceMappingURL=style.css.map */
