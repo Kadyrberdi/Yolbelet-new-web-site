@@ -4,13 +4,91 @@
     max-width: 1158px
     height: 1242px
     margin: auto
-  &__time
+    margin-top: 152px
+    margin-bottom: 220px
+  &__year
+    position: relative
+    max-width: 1158px
     display: flex
-    &__year
+    height: 66px
+    align-items: center
+    font-weight: 600
+    font-size: 32px
+    line-height: 32px
+    margin: auto
+    &__years
+      position: relative
+      right: -23px
+      width: 248px
       background-color: $dark-green
-      padding: 16px 66px
+      padding: 16px 54px 16px 66px
+      clip-path: polygon(91% 36%, 96% 51%, 91% 65%, 91% 100%, 0 100%, 0 0, 91% 0)
+      &::after
+        position: absolute
+    &__all
+      width: 308px
+      padding: 16.5px 44px
+      background-color: $green
+    &__2021
+      border-left: 4px solid #FFFFFF
+      border-right: 4px solid #FFFFFF
+    &__2022
+      text-decoration: underline
+
+  &__boxes
+    margin-top: 95px
+    display: flex
+    flex-direction: column    
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      border: 1px solid #C4C4C4
+      height: 766px
+      left: 164px
+      top: 172px
+  &__timeline
+    position: relative
+    display: flex
+    justify-content: space-between
+    &::after
+      position: absolute
+      content: ''
+      border-radius: 50%
+      width: 16px
+      height: 16px
+      border: 1px solid #FFFFFF
+      left: 156px
+    &__time
+      margin-bottom: 344px
+    &__line
+      position: relative
+      top: 128px
+      &::after
+        position: absolute
+        left: -128px
+  &__box
+    display: flex
+    max-width: 920px
+    height: 328px
+    align-items: center
+    border-radius: 8px
+    margin-bottom: 48px
+    &__text
+      margin-left: 55px
+    &__title
+      margin-bottom: 15px
+    &__img
+      padding: 40px 40px 40px 35px
+    
+.blue
+  background-color: $blue
+.green
+  background-color: $green
+.orange-box
+  backgorund-color: blue
+    
       
-    &__
 
 
 
