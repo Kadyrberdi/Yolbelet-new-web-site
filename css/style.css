@@ -1626,6 +1626,7 @@ p {
 .form-contact-us__box {
   max-width: 726px;
   height: 426px;
+  margin-bottom: 248px;
 }
 
 .form-contact-us__title {
